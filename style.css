@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(76, 75, 75);
+    color: darkblue;
+    margin: 0;
+    padding: 20px;
+text-align: center;
+
+}
+
+h1 {
+    font-size clamp:(30px, 8vw, 60px);
+    margin-bottom: 10px; 
+
+}
+
+p { 
+    font-size clamp: (16px,5vw, 35px);
+
+}
+
+button {background-color: blue;
+        width: 250px;
+        max-width: 100%;
+        padding: 15px, 30px;
+        font size: 18px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+    
+img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+
+}
